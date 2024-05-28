@@ -1,6 +1,10 @@
 <div>
     <h1>Counter</h1>
 
+    <p>
+        get route: {{ route('get-route') }}
+    </p>
+
     <h1>{{ $count }}</h1>
 
     <button wire:click="increment">+</button>
